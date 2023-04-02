@@ -4,9 +4,11 @@
 #linkedin: https://www.linkedin.com/in/sergio-assun%C3%A7%C3%A3o-monteiro-b781897b/
 #lattes: http://lattes.cnpq.br/9489191035734025
 #----------------------------------------------------------------------
+cat("\014") #limpar console ou pressionar Ctrl+L
 x <- c(10.7, 5.36, 43.1, 8.41, 91.7)
 print("Forma 1 de imprimir: ")
 print("valores de x: ")
 print(x)
 print("Forma 2 de imprimir: ")
-message('valores de x: ', x)
+print("valores de x: ")
+str(x)
